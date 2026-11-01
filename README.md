@@ -12,8 +12,8 @@ npx serve .
 
 ## Publish on GitHub Pages
 
-1. Update `hello@luce.dev` in `index.html` with Luce's preferred email address.
-2. Create a GitHub repository and push this project to its `main` branch.
+1. Contact links are configured for `zvluce@gmail.com`, [@nothingluce on X](https://x.com/nothingluce), and [@flucez on Telegram](https://t.me/flucez).
+2. Push this project to its `main` branch.
 3. In **Settings → Pages**, set **Source** to **GitHub Actions**.
 4. The included workflow (`.github/workflows/deploy-pages.yml`) deploys automatically on every push to `main`.
 

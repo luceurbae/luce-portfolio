@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-glow glow-one" aria-hidden="true"></div>
-    <div class="page-glow glow-two" aria-hidden="true"></div>
+    <canvas class="interactive-background" aria-hidden="true"></canvas>
+    <div class="background-orb" aria-hidden="true"></div>
 
     <header class="site-header shell">
       <a class="brand" href="#top" aria-label="Luce home">
@@ -42,7 +42,7 @@
       <section class="hero shell" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot"></span> Open to thoughtful conversations</p>
-          <h1 id="hero-title">Reading the <em>world</em>.<br />Building for what follows.</h1>
+          <h1 id="hero-title" class="interactive-title">Reading the <em>world</em>.<br />Building for what follows.</h1>
           <p class="hero-intro">
             I’m Luce — a prop firm trader, macro &amp; geopolitical analyst, and developer.
             I turn global context into disciplined decisions and useful systems.
@@ -95,7 +95,7 @@
       <section id="about" class="about shell section-grid">
         <p class="section-label">01 / ABOUT</p>
         <div class="section-content about-content">
-          <h2>Decisions are better when they’re connected to the <em>whole picture.</em></h2>
+          <h2 class="reveal-text">Decisions are better when they’re connected to the <em>whole picture.</em></h2>
           <div class="about-bottom">
             <p>
               I work at the intersection of markets, global affairs, and technology. In trading,
@@ -115,11 +115,11 @@
         <p class="section-label">02 / FOCUS AREAS</p>
         <div class="section-content">
           <div class="focus-heading">
-            <h2>Three lenses.<br />One operating system.</h2>
+            <h2 class="reveal-text">Three lenses.<br />One operating system.</h2>
             <p>Each discipline sharpens the others: context drives conviction, and systems make conviction repeatable.</p>
           </div>
           <div class="focus-cards">
-            <article class="focus-card featured-card">
+            <article class="focus-card featured-card spotlight-card">
               <div class="card-index">01</div>
               <div class="card-icon chart-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
               <p class="mono">THE MARKET LENS</p>
@@ -127,7 +127,7 @@
               <p>Process-led execution, market structure, and risk management—with composure when the tape gets noisy.</p>
               <span class="card-arrow">↗</span>
             </article>
-            <article class="focus-card">
+            <article class="focus-card spotlight-card">
               <div class="card-index">02</div>
               <div class="card-icon globe-icon" aria-hidden="true"><span></span><span></span><span></span></div>
               <p class="mono">THE CONTEXT LENS</p>
@@ -135,7 +135,7 @@
               <p>Following the forces that move markets: policy, power, liquidity, and their second-order effects.</p>
               <span class="card-arrow">↗</span>
             </article>
-            <article class="focus-card">
+            <article class="focus-card spotlight-card">
               <div class="card-index">03</div>
               <div class="card-icon code-icon" aria-hidden="true">&lt;/&gt;</div>
               <p class="mono">THE BUILDER LENS</p>
@@ -151,7 +151,7 @@
         <p class="section-label">03 / SELECTED WORK</p>
         <div class="section-content">
           <div class="work-heading">
-            <h2>Research-led.<br /><em>Systems-minded.</em></h2>
+            <h2 class="reveal-text">Research-led.<br /><em>Systems-minded.</em></h2>
             <p>A working index of the questions I spend time on.</p>
           </div>
           <div class="project-list">
@@ -210,8 +210,12 @@
           </div>
           <div class="contact-copy">
             <p>Interested in markets, big-picture thinking, or building something useful? I’m always open to a well-framed conversation.</p>
-            <a class="button button-primary" href="mailto:hello@luce.dev">Say hello <span>↗</span></a>
-            <p class="contact-note mono">REPLACE hello@luce.dev WITH YOUR PREFERRED EMAIL BEFORE PUBLISHING.</p>
+            <a class="button button-primary" href="mailto:zvluce@gmail.com">Say hello <span>↗</span></a>
+            <div class="contact-links" aria-label="Luce contact details">
+              <a href="mailto:zvluce@gmail.com"><span class="mono">EMAIL</span><strong>zvluce@gmail.com</strong><i>↗</i></a>
+              <a href="https://x.com/nothingluce" target="_blank" rel="noreferrer"><span class="mono">X / TWITTER</span><strong>@nothingluce</strong><i>↗</i></a>
+              <a href="https://t.me/flucez" target="_blank" rel="noreferrer"><span class="mono">TELEGRAM</span><strong>@flucez</strong><i>↗</i></a>
+            </div>
           </div>
         </div>
       </section>
